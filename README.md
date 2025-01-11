@@ -43,20 +43,6 @@ The following libraries and tools are required to run the project:
    pip install -r requirements.txt
    ```
 
-## Usage
-1. **Data Retrieval**:
-   - Download the dataset from ChEMBL.
-2. **Run Preprocessing**:
-   ```bash
-   python preprocess.py
-   ```
-3. **Run Analysis and Modeling**:
-   ```bash
-   python analysis_and_modeling.py
-   ```
-4. **View Results**:
-   - Results, including plots and model performance metrics, will be saved in the `results/` directory.
-
 ## Results
 - Random Forest Regressor achieved an R² score of **0.546**.
 - LazyPredict results identified other competitive models with varying accuracy and computation time.
